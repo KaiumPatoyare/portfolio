@@ -9,12 +9,13 @@ body{
     display: flex;
     margin-bottom:100px;
 }
+.top_area h1{
+    font-size:50px;
+}
 .span{
     color:#F88466;
 }
-.area_style h1{
-    font-size:50px;
-}
+
 .area_style{
     width:36%;
     margin-left:7%;
@@ -37,4 +38,44 @@ body{
     display: flex;
     background-position: right;
 }
+.middel_area h1{
+    font-size:50px;
+}
+.bottom_area{
+    padding:10px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.bottom_area h1{
+    font-size:30px;
+}
+
+.Developer_area{
+    display: flex;
+}
+.Developer{
+    width:40%;
+    margin-right:5%;
+    margin-left:5%;
+    box-shadow: 10px 10px 40px gray;
+    padding:35px;
+}
+.Full_Stack_Web{
+    border-left:7px solid;
+    border-image: linear-gradient(#FF694C, #FF9F7A);
+    border-image-slice: 1;
+}
+.Baby_Web{
+    border-left:7px solid;
+    border-image: linear-gradient(#0003FF, #00F2FF);
+    border-image-slice: 1;
+}
+footer{
+    margin-top:120px;
+}
+footer p{
+    text-align:center;
+}
+
 
