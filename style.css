@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+.top_area{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.span{
+    color:#F88466;
+}
+.top_area_style h1{
+    font-size:50px;
+}
+.top_area_style{
+    width:44%;
+    margin-left:3%;
+    margin-right:3%;
+}
+.top_area_style img{
+    width:100%;
+}
+.top_area_style a{
+    text-decoration: none;
+    background-image: linear-gradient(#FF9B76,#FF6649);
+    padding:10px 25px;
+    border-radius:5px;
+    color:#fff;
+    font-weight:bold;
+}
+
