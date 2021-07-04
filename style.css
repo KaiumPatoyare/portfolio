@@ -7,27 +7,34 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom:100px;
 }
 .span{
     color:#F88466;
 }
-.top_area_style h1{
+.area_style h1{
     font-size:50px;
 }
-.top_area_style{
-    width:44%;
-    margin-left:3%;
-    margin-right:3%;
+.area_style{
+    width:36%;
+    margin-left:7%;
+    margin-right:7%;
 }
-.top_area_style img{
+.area_style img{
     width:100%;
 }
-.top_area_style a{
+.area_style a{
     text-decoration: none;
     background-image: linear-gradient(#FF9B76,#FF6649);
-    padding:10px 25px;
+    padding:10px 40px;
     border-radius:5px;
     color:#fff;
     font-weight:bold;
+}
+.middel_area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: right;
 }
 
